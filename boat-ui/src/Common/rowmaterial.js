@@ -1,4 +1,4 @@
-[
+export const rowMatrial =[
     {
         "rating": 4.8,
         "title": "Airdopes 131",
