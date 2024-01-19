@@ -1,4 +1,4 @@
-const SingleProduct =({ID,name,image,salePrice,regularPrice,discount,playback})=>{
+const SingleProduct =({ID,title,image,salePrice,regularPrice,discount,playback})=>{
     
     return <div style={{width:"100%",border:"1px solid red",display:"flex",
           flexDirection:"column",textAlign:"left",borderRadius:"10px",marginBottom:"30px"}}
@@ -6,7 +6,7 @@ const SingleProduct =({ID,name,image,salePrice,regularPrice,discount,playback})=
             <img src={image} alt="image"  width={"100%"}/>
             <button style={{width:"70%" ,padding:"5px", margin:"auto",borderRadius:"10px",backgroundColor:"#fcc50b"}}>{playback} Playback</button>
            
-            <p style={{marginLeft:"20px",fontWeight:"bolder"}}> {name}</p>
+            <p style={{marginLeft:"20px",fontWeight:"bolder"}}> {title}</p>
           
             <p style={{marginLeft:"20px",marginTop:"-10px",fontWeight:"bolder"}}>{salePrice}
                 <span style={{marginLeft:"10px",color:"#b2b9bf",fontWeight:"lighter"}}>{regularPrice}</span>
