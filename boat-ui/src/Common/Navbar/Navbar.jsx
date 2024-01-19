@@ -8,7 +8,7 @@ const Navbar = () => {
             <img src="https://www.boat-lifestyle.com/cdn/shop/files/boAt_logo_small_3067da8c-a83b-46dd-b28b-6ef1e16ccd17_small.svg?v=1693549434" alt="Boat-logo" />
         </div>
         <div className={styles.categories}>
-            <Link>Categories</Link>
+            <Link to="products">Categories</Link>
             <Link>boAt Truly Yours</Link>
             <Link>Gift with boAt</Link>
             <Link>corporate Orders</Link>
