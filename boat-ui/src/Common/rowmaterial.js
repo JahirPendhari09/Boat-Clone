@@ -471,3 +471,1033 @@ export const rowMatrial = [
     }
     
 ]
+
+export const watches = [
+    {
+      "id": 1,
+      "name": "Storm Call",
+      "rating": 4.8,
+      "sale_price": "₹1,499",
+      "regular_price": "₹7,990",
+      "discount": "81% off",
+      "features": ["2.5D Curved Display", "Save Upto 10 Contacts", "BT Calling"]
+    },
+    {
+      "id": 2,
+      "name": "Wave Flex Connect",
+      "rating": 4.8,
+      "sale_price": "₹1,499",
+      "regular_price": "₹7,990",
+      "discount": "81% off",
+      "features": ["HD Curved Display", "10 Days Battery Life", "Multi Sports Mode", "BT Calling"]
+    },
+    {
+      "id": 3,
+      "name": "Lunar Connect",
+      "rating": 4.9,
+      "sale_price": "₹1,799",
+      "regular_price": "₹7,999",
+      "discount": "78% off",
+      "features": ["100+ Sports Modes", "ENx™ Technology", "Bilingual Supports", "Bluetooth Calling"]
+    },
+    {
+      "id": 4,
+      "name": "Wave Beat Call",
+      "rating": 4.8,
+      "sale_price": "₹1,499",
+      "regular_price": "₹6,499",
+      "discount": "77% off",
+      "features": ["HD Display", "600+ Cloud Faces", "10+ Sports Mode", "BT Calling"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 5,
+      "name": "Wave Call",
+      "rating": 4.9,
+      "sale_price": "₹1,699",
+      "regular_price": "₹7,990",
+      "discount": "79% off",
+      "features": ["HD Curved Display", "Save upto 10 contacts", "BT Calling"]
+    },
+    {
+      "id": 6,
+      "name": "Wave Electra",
+      "rating": 4.8,
+      "sale_price": "₹1,799",
+      "regular_price": "₹7,990",
+      "discount": "77% off",
+      "features": ["HD Display", "Built-in Games", "100+ Watch Faces", "BT Calling"]
+    },
+    {
+      "id": 7,
+      "name": "Wave Arcade",
+      "rating": 4.9,
+      "sale_price": "₹2,199",
+      "regular_price": "₹7,990",
+      "discount": "72% off",
+      "features": ["Built-in Games", "100+ Watch Faces", "BT Calling"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 8,
+      "name": "Wave Leap Call",
+      "rating": 4.8,
+      "sale_price": "₹1,799",
+      "regular_price": "₹6,990",
+      "discount": "74% off",
+      "features": ["100+ Watch faces", "100+ Sports Modes", "240mAh Battery", "BT Calling"]
+    },
+    {
+      "id": 9,
+      "name": "Wave Fury",
+      "rating": 4.9,
+      "sale_price": "₹1,299",
+      "regular_price": "₹6,999",
+      "discount": "81% off",
+      "features": ["30 Days Battery Life", "1.83\" HD Display", "50+ Sports Modes", "BT Calling"]
+    },
+    {
+      "id": 10,
+      "name": "Storm Call 2",
+      "rating": 4.8,
+      "sale_price": "₹1,299",
+      "regular_price": "₹6,999",
+      "discount": "81% off",
+      "features": ["1.83\" HD Display", "Crest OS+", "700+ Active Modes", "BT Calling"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 11,
+      "name": "Wave Astra",
+      "rating": 4.4,
+      "sale_price": "₹1,999",
+      "regular_price": "₹6,999",
+      "discount": "71% off",
+      "features": ["1.83\" HD Display", "700+ Active Modes", "1000+ Watch Faces", "BT Calling"]
+    },
+    {
+      "id": 12,
+      "name": "Primia Celestial",
+      "rating": 4.6,
+      "sale_price": "₹1,999",
+      "regular_price": "₹7,999",
+      "discount": "75% off",
+      "features": ["Functional Crown", "100+ Sports Mode", "10 Days Battery", "BT Calling"]
+    },
+    {
+      "id": 13,
+      "name": "Wave Stride Voice",
+      "rating": 4.4,
+      "sale_price": "₹1,899",
+      "regular_price": "₹7,990",
+      "discount": "76% off",
+      "features": ["100+ Sports Modes", "100+ Watch Faces", "10 Days Battery Life", "AMOLED Display"]
+    },
+    {
+      "id": 14,
+      "name": "Ultima Prism",
+      "rating": 4.8,
+      "sale_price": "₹2,299",
+      "regular_price": "₹8,999",
+      "discount": "67% off",
+      "features": ["1.96” AMOLED Display", "700+ Active Modes", "Watch Face Studio", "BT Calling"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 15,
+      "name": "Wave Glory",
+      "rating": 4.4,
+      "sale_price": "₹2,399",
+      "regular_price": "₹6,499",
+      "discount": "63% off",
+      "features": ["100+ Sports Modes", "Premium Metal Body", "1.96\" HD Display", "BT Calling"]
+    },
+    {
+      "id": 16,
+      "name": "Wave Neo Plus",
+      "rating": 5.0,
+      "sale_price": "₹1,399",
+      "regular_price": "₹6,499",
+      "discount": "78% off",
+      "features": ["1.96\" HD Display", "700+ Active Modes", "7 Days Battery Life", "BT Calling"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 17,
+      "name": "Lunar Mirage",
+      "rating": 4.7,
+      "sale_price": "₹1,799",
+      "regular_price": "₹7,999",
+      "discount": "78% off",
+      "features": ["Functional Crown", "100+ Sports Mode", "Round HD Display", "AMOLED Display"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 18,
+      "name": "Wave Convex",
+      "rating": 4.7,
+      "sale_price": "₹2,799",
+      "regular_price": "₹8,999",
+      "discount": "69% off",
+      "features": ["700+ Active Modes", "DIY Watch Face Studio", "Bluetooth Calling"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 19,
+      "name": "Wave Genesis",
+      "rating": 4.8,
+      "sale_price": "₹1,999",
+      "regular_price": "₹6,499",
+      "discount": "69% off",
+      "features": ["1.96\" HD Display", "100+ Sports Mode", "Premium Metal Body", "AMOLED Display"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 20,
+      "name": "Lunar Orb",
+      "rating": 4.8,
+      "sale_price": "₹2,599",
+      "regular_price": "₹8,999",
+      "discount": "71% off",
+      "features": ["700+ Active Modes", "BT Calling", "Watch Face Studio", "AMOLED Display"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 21,
+      "name": "Lunar Pro LTE",
+      "rating": 5.0,
+      "sale_price": "₹9,999",
+      "regular_price": "₹21,999",
+      "discount": "55% off",
+      "features": ["1.39\" AMOLED Display", "Built-in GPS", "e-SIM Cellular Calling", "BT Calling"]
+    },
+    {
+      "id": 22,
+      "name": "Wave Sigma",
+      "rating": 4.8,
+      "sale_price": "₹1,499",
+      "regular_price": "₹7,499",
+      "discount": "80% off",
+      "features": ["2.01\" HD Display", "700+ Active Modes", "100+ Watch Faces", "AMOLED Display"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 23,
+      "name": "Primia Curv",
+      "rating": 4.6,
+      "sale_price": "₹2,799",
+      "regular_price": "₹8,999",
+      "discount": "69% off",
+      "features": ["700+ Active Modes", "BT Calling", "Watch Face Studio", "AMOLED Display"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 24,
+      "name": "Wave Genesis Pro",
+      "rating": 4.6,
+      "sale_price": "₹2,999",
+      "regular_price": "₹10,999",
+      "discount": "73% off",
+      "features": ["Premium Metal Body", "BT Calling", "Functional Crown", "AMOLED Display"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 25,
+      "name": "Wave Call 2",
+      "rating": 4.9,
+      "sale_price": "₹1,399",
+      "regular_price": "₹6,999",
+      "discount": "80% off",
+      "features": ["1.83\" HD Display", "Crest OS+", "700+ Active Modes", "AMOLED Display"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 26,
+      "name": "Lunar Peak",
+      "rating": 4.8,
+      "sale_price": "₹2,499",
+      "regular_price": "₹6,999",
+      "discount": "64% off",
+      "features": ["1.45\" AMOLED Display", "AI Voice Assistant", "100+ Sports Modes", "AMOLED Display"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 27,
+      "name": "Enigma X700",
+      "rating": 4.9,
+      "sale_price": "₹4,299",
+      "regular_price": "₹8,999",
+      "discount": "52% off",
+      "features": ["100+ Sports modes", "100+ Watch Faces", "1.52\" AMOLED Display", "BT Calling"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 28,
+      "name": "Lunar Seek",
+      "rating": 4.6,
+      "sale_price": "₹1,499",
+      "regular_price": "₹6,999",
+      "discount": "79% off",
+      "features": ["1.39\" HD Display", "10 Days Battery", "100+ Sports Modes", "AMOLED Display"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 29,
+      "name": "Wave Elevate Pro",
+      "rating": 4.5,
+      "sale_price": "₹3,299",
+      "regular_price": "₹10,999",
+      "discount": "70% off",
+      "features": ["Premium Metal Body", "BT Calling", "100+ Sports Modes", "BT Calling"],
+      "promo_code": "OFF ON BIG300"
+    },
+    {
+      "id": 30,
+      "name": "Storm Pro Call",
+      "rating": 5.0,
+      "sale_price": "₹1,999",
+      "regular_price": "₹9,799",
+      "discount": "80% off",
+      "features": ["1.78\" AMOLED Display", "700+ Active Modes", "AMOLED Display"]
+    },
+    {
+      "id": 31,
+      "name": "Lunar Prime",
+      "rating": 4.6,
+      "sale_price": "₹2,199",
+      "regular_price": "₹8,999",
+      "discount": "76% off",
+      "features": ["Round 1.45\" Display", "BT Calling", "700+ Active Modes", "BT Calling"]
+    },
+    {
+      "id": 32,
+      "name": "Wave Style Call",
+      "rating": 4.7,
+      "sale_price": "₹1,999",
+      "regular_price": "₹7,990",
+      "discount": "75% off",
+      "features": ["HD Display", "Live Cricket Scores", "10+ Sports Mode", "AMOLED Display"]
+    }
+]
+
+export const headphones = [
+    {
+      "rating": 5.0,
+      "id": 1,
+      "name": "Rockerz 551ANC",
+      "sale_price": "₹3,299",
+      "regular_price": "₹7,990",
+      "discount": "59% off",
+      "features": ["BEAST™ Mode", "ENx™ Technology", "ASAP Charge", "65 Hours Playback"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.7,
+      "id": 29,
+      "name": "Nirvanaa 751 ANC",
+      "sale_price": "₹4,499",
+      "regular_price": "₹7,990",
+      "discount": "44% off",
+      "features": ["40mm Drivers", "ASAP™️ Charge", "Bluetooth v5.0", "7.1 Channel Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 15,
+      "name": "Immortal 400",
+      "sale_price": "₹1,999",
+      "regular_price": "₹6,990",
+      "discount": "71% off",
+      "features": ["50mm Drivers", "Remote Controller", "Real RGB LEDs", "10 Hours Playback"],
+      "add_to_cart": true
+    },
+    {
+      "rating": null,
+      "id": null,
+      "name": "Rockid Rush",
+      "sale_price": "₹1,499",
+      "regular_price": "₹2,499",
+      "discount": "40% off",
+      "features": ["85 dB Loudness Limit", "Soft & Plush Earcups", "boAt Signature Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 12,
+      "name": "Immortal 200",
+      "sale_price": "₹1,999",
+      "regular_price": "₹4,990",
+      "discount": "60% off",
+      "features": ["50mm Drivers", "Noise Isolating Mic", "Real RGB LEDs", "8 Hours Playback"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 98,
+      "name": "Rockerz 400",
+      "sale_price": "₹1,399",
+      "regular_price": "₹2,990",
+      "discount": "53% off",
+      "features": ["40mm Dynamic Driver", "300 mAh Battery", "Voice Assistant", "8 Hours Playback"],
+      "add_to_cart": true
+    },
+    {
+      "rating": null,
+      "id": null,
+      "name": "Rockerz 440",
+      "sale_price": "₹999",
+      "regular_price": "₹2,990",
+      "discount": "67% off",
+      "features": ["Bluetooth v5.0", "40mm Drivers", "Lightweight design"],
+      "notify_me": true
+    },
+    {
+      "rating": 4.9,
+      "id": 31,
+      "name": "Rockerz 450 POLO",
+      "sale_price": "₹3,990",
+      "regular_price": "₹3,990",
+      "discount": ["40mm Drivers", "Bluetooth v4.2", "300mAh Battery"],
+      "add_to_cart": true
+    }
+]
+  
+export const speakers =[
+    {
+      "rating": 4.8,
+      "id": 150,
+      "name": "Stone 350",
+      "sale_price": "₹1,299",
+      "regular_price": "₹3,490",
+      "discount": "63% off",
+      "features": ["Huge 2200 mAh Battery", "IPX7 Water Resistance", "Lightweight Design", "12 Hours Playback🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 8,
+      "name": "Stone 750",
+      "sale_price": "₹2,199",
+      "regular_price": "₹5,990",
+      "discount": "63% off",
+      "features": ["Bluetooth V5.0", "12W RMS Sound", "Built-In Microphone", "11 Hours Playback🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.7,
+      "id": 27,
+      "name": "Stone 105",
+      "sale_price": "₹999",
+      "regular_price": "₹2,490",
+      "discount": "60% off",
+      "features": ["Bluetooth V5.0", "5W RMS Sound", "TWS Functionality", "12 Hours Playback₹200 OFF ON BIG200"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 28,
+      "name": "Stone 352",
+      "sale_price": "₹1,599",
+      "regular_price": "₹3,490",
+      "discount": "54% off",
+      "features": ["Up to 12 Hours Playback", "Huge 2200 mAh Battery", "IPX7 Water Resistance", "12W Stereo Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 22,
+      "name": "Stone 620",
+      "sale_price": "₹1,999",
+      "regular_price": "₹3,990",
+      "discount": "50% off +2",
+      "features": ["Up to 10 Hours Playback", "IPX4 Water Resistance", "Portable & Lightweight", "14W Rms Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 5.0,
+      "id": 38,
+      "name": "Stone 1200F",
+      "sale_price": "₹3,699",
+      "regular_price": "₹6,990",
+      "discount": "47% off",
+      "features": ["Up to 09HRS Playback", "RGB LED Lights", "IPX7 Water Resistance", "160W RMS Sound🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 8,
+      "name": "Party Pal 390",
+      "sale_price": "₹14,999",
+      "regular_price": "₹34,990",
+      "discount": "57% off",
+      "features": ["6 Hours Playback", "Multi-Compatibility", "Flame LEDs", "09 Hours Playback"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 75,
+      "name": "Stone 1200",
+      "sale_price": "₹3,999",
+      "regular_price": "₹6,990",
+      "discount": "43% off",
+      "features": ["14W Signature Sound", "IPX7 Water Resistance", "RGB LED Lights", "6 Hours Playback🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.7,
+      "id": 15,
+      "name": "Party Pal 400",
+      "sale_price": "₹16,999",
+      "regular_price": "₹34,990",
+      "discount": "51% off",
+      "features": ["Bluetooth V5.3", "160W RMS Sound", "Multi-Compatibility", "40W Rms Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 19,
+      "name": "Stone 1450",
+      "sale_price": "₹4,499",
+      "regular_price": "₹8,990",
+      "discount": "50% off",
+      "features": ["3600 mAh Battery", "IPX5 Water Resistance", "Portable & Lightweight", "08 Hours Playback"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 21,
+      "name": "Stone 180",
+      "sale_price": "₹999",
+      "regular_price": "₹2,490",
+      "discount": "60% off",
+      "features": ["Lightweight Design", "IPX7 Water Resistance", "Immersive HD Sound", "160W RMS Sound🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.7,
+      "id": 13,
+      "name": "Blitz 2000 Pro",
+      "sale_price": "₹6,999",
+      "regular_price": "₹12,990",
+      "discount": "46% off",
+      "features": ["Bluetooth V5.0", "4.1 Channel Sound", "RGB lights", "Limited Edition🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 9,
+      "name": "Stone 350 Deadpool Edition",
+      "sale_price": "₹1,699",
+      "regular_price": "₹3,490",
+      "discount": "51% off",
+      "features": ["12 Hours Playback", "10W RMS Sound", "TWS Technology", "14W Rms Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 69,
+      "name": "Stone 1000",
+      "sale_price": "₹2,999",
+      "regular_price": "₹6,990",
+      "discount": "57% off",
+      "features": ["Huge 3000 mAh Battery", "IPX5 Water Resistance", "Up to 10HRS Playback", "90W Signature Sound🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.6,
+      "id": 16,
+      "name": "Stone 1800",
+      "sale_price": "₹8,999",
+      "regular_price": "₹21,990",
+      "discount": "59% off",
+      "features": ["Built-In Microphone", "Multiple Connectivity", "5 Hours Playback", "40W Rms Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 76,
+      "name": "Stone 1500",
+      "sale_price": "₹6,990",
+      "regular_price": "₹12,990",
+      "discount": "46% off +2",
+      "features": ["Up to 15HRS Playback", "IPX6 Water Resistance", "Travel & Party Booster", "12 Hours Playback"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 9,
+      "name": "Stone 200 Pro",
+      "sale_price": "₹1,799",
+      "regular_price": "₹2,490",
+      "discount": "28% off",
+      "features": ["8W RMS Sound", "52mm Drivers", "IPX6 Water Resistance", "07 Hours Playback"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.7,
+      "id": 12,
+      "name": "Rugby Plus",
+      "sale_price": "₹1,999",
+      "regular_price": "₹4,990",
+      "discount": "60% off",
+      "features": ["16W Stereo Sound", "Party Booster", "IPX7 Water Resistance", "07 Hours Playback"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 110,
+      "name": "Stone 650",
+      "sale_price": "₹1,999",
+      "regular_price": "₹4,990",
+      "discount": "60% off",
+      "features": ["10W Powerful Sound", "Stereo Sound", "Lightweight Design", "6 Hours Playback🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": null,
+      "id": null,
+      "name": "Party Pal 320",
+      "sale_price": "₹12,999",
+      "regular_price": "₹29,990",
+      "discount": "57% off",
+      "features": ["Multi-Compatibility", "120W RMS Sound", "Mic for Karaoke", "11 Hours Playback"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 17,
+      "name": "Stone 135",
+      "sale_price": "₹999",
+      "regular_price": "₹1,990",
+      "discount": "50% off +2",
+      "features": ["Voice Assistant", "Lightweight", "TWS Technology", "04 Hours Playback"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 110,
+      "name": "Stone 190",
+      "sale_price": "₹999",
+      "regular_price": "₹2,999",
+      "discount": "67% off +4",
+      "features": ["IPX7 Water Resistance", "52mm Dynamic Driver", "Lightweight Design", "9 Hours Playback"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 10,
+      "name": "Stone 1208",
+      "sale_price": "₹4,099",
+      "regular_price": "₹6,990",
+      "discount": "41% off",
+      "features": ["RGB LEDs", "Bluetooth v5.0", "76mm Drivers", "5 Hours Playback🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 8,
+      "name": "Stone Ignite",
+      "sale_price": "₹8,999",
+      "regular_price": "₹21,990",
+      "discount": "59% off",
+      "features": ["90W RMS Sound", "Dynamic RGB Light", "Broadcast Feature", "8 Hours Playback"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 22,
+      "name": "Stone 1000v2",
+      "sale_price": "₹2,999",
+      "regular_price": "₹6,990",
+      "discount": "57% off",
+      "features": ["Bluetooth v5.0", "14W RMS Sound", "IPX5 Water Resistance", "05 Hours Playback"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 27,
+      "name": "Stone 500",
+      "sale_price": "₹1,999",
+      "regular_price": "₹2,990",
+      "discount": "33% off",
+      "features": ["RGB Lights", "TWS Technology", "10W Powerful Sound", "70W Rms Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 16,
+      "name": "Party Pal 200",
+      "sale_price": "₹8,999",
+      "regular_price": "₹9,990",
+      "discount": "10% off",
+      "features": ["Up to 07HRS Playback", "Multi Compatibility", "Microphone Jack", "20W Rms Sound"],
+      "add_to_cart": true
+    }
+]  
+
+export const soundBar = [
+    {
+      "rating": 4.9,
+      "id": 9,
+      "name": "Aavante Bar 1150",
+      "sale_price": "₹5,299",
+      "regular_price": "₹9,990",
+      "discount": "47% off",
+      "features": ["Sleek & Lightweight", "Bluetooth v4.2", "2.0 Channel Sound", "60W Rms Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 8,
+      "name": "Aavante Bar Rhythm",
+      "sale_price": "₹4,999",
+      "regular_price": "₹7,990",
+      "discount": "37% off",
+      "features": ["Bluetooth v5.3", "EQ Modes", "2.0 Channel Sound", "Wireless Subwoofer"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 5.0,
+      "id": 63,
+      "name": "Aavante Bar Theme",
+      "sale_price": "₹10,999",
+      "regular_price": "₹21,990",
+      "discount": "50% off",
+      "features": ["2.1.Channel Sound", "EQ Modes", "160W RMS Sound", "10W RMS Sound🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 8,
+      "name": "Aavante Bar 480",
+      "sale_price": "₹1,399",
+      "regular_price": "₹3,490",
+      "discount": "60% off",
+      "features": ["2.0 Channel Sound", "Multi Compatibility", "TWS Feature", "16W Rms Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 7,
+      "name": "Aavante Bar 500",
+      "sale_price": "₹1,799",
+      "regular_price": "₹2,990",
+      "discount": "40% off",
+      "features": ["Dual EQ Modes", "Bluetooth v5.0", "4.5HRS Playback", "10W RMS Sound🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating":4.6,
+      "id": 62,
+      "name": "Aavante Bar 490",
+      "sale_price": "₹1,199",
+      "regular_price": "₹3,490",
+      "discount": "66% off",
+      "features": ["2.0 Channel Sound", "Type-C Charging", "Multi Compatibility", "Dolby Digital"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 17,
+      "name": "Aavante Bar 3100D",
+      "sale_price": "₹14,999",
+      "regular_price": "₹24,990",
+      "discount": "40% off",
+      "features": ["EQ Modes", "5.1 Channel Sound", "250W RMS Sound", "60W Rms Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.2,
+      "id": 61,
+      "name": "Aavante Bar Tune",
+      "sale_price": "₹3,999",
+      "regular_price": "₹7,990",
+      "discount": "50% off",
+      "features": ["Bluetooth v5.3", "EQ Modes", "2.0 Channel Sound", "Dolby Audio₹500 OFF ON BIG500"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 8,
+      "name": "Aavante 3150D",
+      "sale_price": "₹14,999",
+      "regular_price": "₹24,990",
+      "discount": "40% off",
+      "features": ["5.1 Channel Sound", "260W RMS Sound", "USB Compatible", "160W Rms Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 46,
+      "name": "Aavante Bar 2050",
+      "sale_price": "₹10,999",
+      "regular_price": "₹24,990",
+      "discount": "56% off",
+      "features": ["2.1.Channel Sound", "Sleek Superior Design", "Wireless Subwoofer", "Dolby Atmos🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.3,
+      "id":60,
+      "name": "Aavante Bar 5500DA",
+      "sale_price": "₹19,999",
+      "regular_price": "₹59,990",
+      "discount": "67% off",
+      "features": ["5.1.2 Channel Sound", "500W Sound", "EQ Modes", "16W RMS Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 5.0,
+      "id": 2,
+      "name": "Aavante Bar 520",
+      "sale_price": "₹1,699",
+      "regular_price": "₹3,990",
+      "discount": "57% off",
+      "features": ["2.0 Channel Sound", "Type-C Charging", "6H Playback", "500W RMS Sound🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 8,
+      "name": "Aavante Bar 3500",
+      "sale_price": "₹15,999",
+      "regular_price": "₹44,990",
+      "discount": "64% off",
+      "features": ["Bluetooth v5.3", "5.1 Channel Sound", "Multi-connectivity", "160W RMS Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 3.8,
+      "id": 59,
+      "name": "Aavante Bar Quake",
+      "sale_price": "₹9,999",
+      "regular_price": "₹15,990",
+      "discount": "37% off",
+      "features": ["Bluetooth v5.3", "2.1 Channel Sound", "Multiple EQ modes", "60W Rms Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.7,
+      "id": 7,
+      "name": "Aavante Bar 1300",
+      "sale_price": "₹4,999",
+      "regular_price": "₹8,990",
+      "discount": "44% off",
+      "features": ["2.0 Channel Sound", "Multiple Connectivity", "EQ Modes", "Dolby Atmos"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 58,
+      "name": "Aavante Bar 4100DA",
+      "sale_price": "₹19,999",
+      "regular_price": "₹54,990",
+      "discount": "64% off",
+      "features": ["300W RMS Sound", "3.1.2 Channel", "Multiple Connectivity", "Wired Subwoofer"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 57,
+      "name": "Aavante Bar 2500",
+      "sale_price": "₹9,999",
+      "regular_price": "₹19,990",
+      "discount": "50% off",
+      "features": ["5.1 Channel Sound", "180W RMS Sound", "2 Satelite Speakers", "Dolby Audio"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 5.0,
+      "id": 1,
+      "name": "Aavante Bar 1850D",
+      "sale_price": "₹11,999",
+      "regular_price": "₹34,490",
+      "discount": "65% off",
+      "features": ["2.1.Channel Sound", "Multiple EQ Modes", "220W RMS Sound", "Wireless Subwoofer"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 5.0,
+      "id": 1,
+      "name": "Aavante Bar 1800 v2",
+      "sale_price": "₹11,499",
+      "regular_price": "₹19,990",
+      "discount": "42% off",
+      "features": ["Dual EQ Modes", "Premium Finish Design", "120W RMS Sound", "Wireless Subwoofer"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.5,
+      "id": 4,
+      "name": "Aavante Bar 1750",
+      "sale_price": "₹8,999",
+      "regular_price": "₹19,990",
+      "discount": "55% off",
+      "features": ["2.1.Channel Sound", "120W RMS Sound", "EQ Modes", "60W RMS Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 5.0,
+      "id": 2,
+      "name": "Aavante Bar 1180",
+      "sale_price": "₹5,299",
+      "regular_price": "₹7,999",
+      "discount": "34% off",
+      "features": ["Multiple EQ Modes", "2.0 Channel Sound", "Bluetooth v5.0", "300W RMS Sound🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.4,
+      "id": 56,
+      "name": "Aavante Bar 2600",
+      "sale_price": "₹13,999",
+      "regular_price": "₹29,990",
+      "discount": "53% off",
+      "features": ["2.1 Channel Sound", "Wired Subwoofer", "Multi-Connectivity", "180W RMS Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating":5.0,
+      "id": 55,
+      "name": "Aavante Bar 2400",
+      "sale_price": "₹9,999",
+      "regular_price": "₹19,990",
+      "discount": "50% off",
+      "features": ["5.1 Channel Sound", "Multiple Connectivity", "2 Satelite Speakers", "Dolby Audio"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 5.0,
+      "id": 1,
+      "name": "Aavante Bar 1200D",
+      "sale_price": "₹8,499",
+      "regular_price": "₹11,990",
+      "discount": "29% off",
+      "features": ["100W RMS Sound", "EQ Modes", "2.1.Channel Sound", "Dolby Atmos"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 13,
+      "name": "Aavante Bar 4000DA",
+      "sale_price": "₹18,999",
+      "regular_price": "₹24,990",
+      "discount": "24% off",
+      "features": ["200W RMS Sound", "2.1.2 Channel", "3D Audio Technology", "300W RMS Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.7,
+      "id": 54,
+      "name": "Aavante Bar Maven",
+      "sale_price": "₹11,999",
+      "regular_price": "₹29,990",
+      "discount": "60% off",
+      "features": ["2.1 Channel Sound", "Subwoofer", "Multi-Connectivity", "Wired Subwoofer🎉 New Launch"],
+      "add_to_cart": true
+    },
+] 
+
+export const partySpeakers =[
+    {
+      "rating": 4.9,
+      "id": 14,
+      "name": "Party Pal 200",
+      "sale_price": "₹8,999",
+      "regular_price": "₹9,990",
+      "discount": "10% off",
+      "features": ["Up to 07HRS Playback", "Multi Compatibility", "Microphone Jack", "160W RMS Sound🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 8,
+      "name": "Party Pal 390",
+      "sale_price": "₹14,999",
+      "regular_price": "₹34,990",
+      "discount": "57% off",
+      "features": ["6 Hours Playback", "Multi-Compatibility", "Flame LEDs", "50W RMS Sound🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.7,
+      "id": 7,
+      "name": "Party Pal 185",
+      "sale_price": "₹7,499",
+      "regular_price": "₹17,990",
+      "discount": "58% off",
+      "features": ["Multi-Compatibility", "6 Hours Playback", "TWS Modes", "6 Hours Playback🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.3,
+      "id": 18,
+      "name": "Party Pal 195",
+      "sale_price": "₹7,499",
+      "regular_price": "₹17,990",
+      "discount": "58% off",
+      "features": ["Bluetooth V5.0", "50W RMS Sound", "RGB lights", "15W Rms Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.9,
+      "id": 20,
+      "name": "Party Pal 20",
+      "sale_price": "₹2,999",
+      "regular_price": "₹5,490",
+      "discount": "45% off",
+      "features": ["Microphone Jack", "LED Lit Speaker", "Up to 4.5HRS Playback", "20W Rms Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 6,
+      "name": "Party Pal 50",
+      "sale_price": "₹3,999",
+      "regular_price": "₹7,990",
+      "discount": "50% off",
+      "features": ["IPX5 Water Resistance", "RGB LED Lights", "Multiple Connectivity", "120W RMS Sound🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.7,
+      "id": 15,
+      "name": "Party Pal 300",
+      "sale_price": "₹12,999",
+      "regular_price": "₹29,990",
+      "discount": "57% off",
+      "features": ["Mic for Karaoke", "6 Hours Playback", "Multi-Connectivity", "6 Hours Playback🎉 New Launch"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.6,
+      "id": 16,
+      "name": "Party Pal 320",
+      "sale_price": "₹12,999",
+      "regular_price": "₹29,990",
+      "discount": "57% off",
+      "features": ["Multi-Compatibility", "120W RMS Sound", "Mic for Karaoke", "11 Hours Playback"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.7,
+      "id": 17,
+      "name": "Party Pal 400",
+      "sale_price": "₹16,999",
+      "regular_price": "₹34,990",
+      "discount": "51% off",
+      "features": ["Bluetooth V5.3", "160W RMS Sound", "Multi-Compatibility", "70W RMS Sound"],
+      "add_to_cart": true
+    },
+    {
+      "rating": 4.8,
+      "id": 5,
+      "name": "Party Pal 208",
+      "sale_price": "₹8,999",
+      "regular_price": "₹19,990",
+      "discount": "55% off",
+      "features": ["RGB Lights", "7H Playback", "Bluetooth v5.0", "50W RMS Sound"],
+      "add_to_cart": true
+    }
+  ]
+  
