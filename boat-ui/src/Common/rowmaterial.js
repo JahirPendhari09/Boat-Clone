@@ -1499,5 +1499,5 @@ export const partySpeakers =[
       "features": ["RGB Lights", "7H Playback", "Bluetooth v5.0", "50W RMS Sound"],
       "add_to_cart": true
     }
-  ]
+]
   
