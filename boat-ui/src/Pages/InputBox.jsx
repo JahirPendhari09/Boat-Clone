@@ -27,9 +27,18 @@ const InputBox =()=>{
      <div>
         {boxes.length>0 && boxes.map((item)=>{
             return <div>
-                <input type="text" name="title" placeholder="title" onChange={(e)=>handleChange(e,item.id)}/>
-                <input type="text" name="name" placeholder="name" onChange={(e)=>handleChange(e,item.id)} />
-                 <button onClick={handleAddBox}>+</button>
+                <input type="text" 
+                  name="title"
+                  placeholder="title" 
+                  onChange={(e)=>handleChange(e,item.id)}
+                />
+
+                <input type="text" 
+                  name="name" 
+                  placeholder="name" 
+                  onChange={(e)=>handleChange(e,item.id)} 
+                />
+                <button onClick={handleAddBox}>+</button>
             </div>
         })}
      </div>

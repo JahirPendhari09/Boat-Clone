@@ -1,7 +1,7 @@
 import { useState } from "react"
 
-import { rowMatrial } from "../Common/rowmaterial"
-import { SingleProduct } from "./SingleProduct"
+import { rowMatrial } from "../../Common/rowmaterial"
+import { SingleProduct } from "../SingleProduct/SingleProduct"
 import { Link } from "react-router-dom"
 
 const ProductCard = ({start,end}) => {

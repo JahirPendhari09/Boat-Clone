@@ -11,7 +11,7 @@ const Navbar = () => {
             <Link to="products">Categories</Link>
             <Link>boAt Truly Yours</Link>
             <Link>Gift with boAt</Link>
-            <Link>corporate Orders</Link>
+            <Link>Corporate Orders</Link>
             <Link>More</Link>
         </div>
         <div className={styles.search}>

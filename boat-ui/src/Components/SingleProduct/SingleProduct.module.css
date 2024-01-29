@@ -1,0 +1,59 @@
+.mainDiv {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+    border-radius:10px;
+    margin-bottom:30px;
+    border:1px solid red;
+}
+
+.mainDiv > p {
+    margin-left:20px;
+    font-weight:bolder;
+} 
+
+.priceCard {
+    margin-left:20px;
+    font-weight:bolder;
+    margin-top: -10px;
+}
+
+.productImg {
+    width:80%;
+    margin:auto;
+    margin-bottom:10px;
+    margin-top:20px;
+}
+
+.btnPlayback {
+    width:70%;
+    padding:5px;
+    border-radius:10px;
+    background-color:#fcc50b;
+}
+
+button {
+    cursor: pointer;
+    margin: auto;
+}
+.btnCart {
+    width:90%;
+    padding:10px;
+    border-radius:10px;
+    font-size:16px;
+    background-color:black;
+    color:white;
+    margin-bottom:20px ;
+    margin-top: 10px;
+}
+
+.discountEle {
+    margin-left:10px;
+    color:#b2b9bf;
+    font-weight:lighter;   
+}
+
+.discountEle:nth-child(2) {
+    color : green;
+}

@@ -1,5 +1,5 @@
-import { BannerButton } from "../Components/BannerButton"
-import { ProductCard } from "../Components/ProductCard"
+import { BannerButton } from "../Components/Banner/BannerButton"
+import { ProductCard } from "../Components/ProductCard/ProductCard"
 
 const Homepage = () => {
     return <div>
