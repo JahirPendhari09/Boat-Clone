@@ -1,6 +1,4 @@
 const initialState = {
-    // Your initial state properties go here
-    // For example:
     isAuthenticated: false,
     user: null,
   };
