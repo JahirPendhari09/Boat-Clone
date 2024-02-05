@@ -1,0 +1,16 @@
+.mainCard {
+    display:flex;
+    justify-content:space-between;
+    width:95%;
+    margin:auto;
+    align-items:center;
+}
+
+.container {
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    width:95%;
+    margin:auto;
+    gap:20px;
+    justify-content:space-around;
+}
