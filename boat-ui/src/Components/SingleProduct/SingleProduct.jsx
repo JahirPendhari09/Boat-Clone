@@ -17,4 +17,4 @@ const SingleProduct =({ID,title,image,salePrice,regularPrice,discount,playback})
     )
 }
 
-export {SingleProduct};
+export  default SingleProduct;

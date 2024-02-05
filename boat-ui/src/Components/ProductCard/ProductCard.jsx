@@ -1,26 +1,28 @@
-import { useState } from "react"
-import { rowMatrial } from "../../Common/rowmaterial"
-import { SingleProduct } from "../SingleProduct/SingleProduct"
-import { Link } from "react-router-dom"
-import  styles  from "./ProductCard.module.css"
+import { Suspense, useState, lazy } from "react";
+import { rowMatrial } from "../../Common/rowmaterial";
+import { Link } from "react-router-dom";
+import styles from "./ProductCard.module.css";
 
-const ProductCard = ({start,end}) => {
-    const [data, setdata] = useState(rowMatrial);
+const SingleProduct = lazy(() => import("../singleProduct/SingleProduct"));
 
-    return <>
-        <div className={styles.mainCard} >
-           <h1>Best Sellers</h1>
-           <Link to="/products"><p> View All ➡️</p></Link>
-        </div>
-        <div className={styles.container}>
-            {
-                data.length > 0 && data.map((item,i) => {
-                    return i >= start && i < end ? <SingleProduct key={item.ID} {...item} image={item.images && item.images.length > 0 ? item.images[0] : ''} />:null
-                })
-            }
+const ProductCard = ({ start, end }) => {
+    const [data, setData] = useState(rowMatrial);
 
-        </div>
-    </>
-}
+    return (
+        <>
+            <div className={styles.mainCard}>
+                <h1>Best Sellers</h1>
+                <Link to="/products"><p> View All ➡️</p></Link>
+            </div>
+            <Suspense fallback={<div>Loading...</div>}>
+                <div className={styles.container}>
+                    {data?.length > 0 && data?.slice(start, end).map((item) => (
+                        <SingleProduct key={item.ID} {...item} image={item.images && item.images.length > 0 ? item.images[0] : ''} />
+                    ))}
+                </div>
+            </Suspense>
+        </>
+    );
+};
 
-export { ProductCard }
+export default ProductCard ;

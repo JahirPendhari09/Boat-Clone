@@ -1,4 +1,4 @@
-import { ProductCard } from "../Components/ProductCard/ProductCard"
+import  ProductCard  from "../Components/productCard/ProductCard"
 
 const Product =()=>{
     return <ProductCard start={0} end={Infinity}/>
