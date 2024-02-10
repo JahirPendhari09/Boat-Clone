@@ -100,12 +100,10 @@ export const rowMatrial = [
         "discount": 74,
         "features": ["ENx™ Technology", "ASAP™ Charge", "IWP™ Technology"],
         "playback": 30,
-        "playback": "Gaming Earbuds",
         "images":
             ['https://www.boat-lifestyle.com/cdn/shop/files/Artboard_1__3_-removebg-preview_500x.png?v=1686628064'
              ,'https://www.boat-lifestyle.com/cdn/shop/files/Artboard1copy5_1_900x.jpg?v=1686628062'
              ,'https://www.boat-lifestyle.com/cdn/shop/files/Artboard1copy6_1_900x.jpg?v=1686628062'
-                
             ]
     },
     {
@@ -166,7 +164,6 @@ export const rowMatrial = [
         "discount": 71,
         "features": ["ENx™ Technology", "BEAST™ Mode", "13mm Drivers"],
         "playback": 20,
-        "noiseCancellation": "Noise Cancellation",
         'images':[
             'https://www.boat-lifestyle.com/cdn/shop/files/ADHype.924-removebg-preview_500x.png?v=1688540257'
             ,'https://www.boat-lifestyle.com/cdn/shop/files/Artboard3_22_900x.jpg?v=1688555461'
@@ -182,7 +179,6 @@ export const rowMatrial = [
         "discount": 72,
         "features": ["120 Hours Playback", "BEAST™ Mode", "ENx™ Technology"],
         "playback": 100,
-        "coupon": "₹500 OFF ON BIG500",
         "images":
             [
                 'https://www.boat-lifestyle.com/cdn/shop/files/NION-ANC-FI_White01_600x.png?v=1702893834'
@@ -216,7 +212,6 @@ export const rowMatrial = [
         "discount": 69,
         "features": ["Clear Calling", "ASAP™ Charge"],
         "playback": 40,
-        "newLaunch": "🎉 New Launch",
         "images":
             [
                 'https://www.boat-lifestyle.com/cdn/shop/products/grey_92c7203d-e618-4992-864f-cc69f45cbdb2_600x.png?v=1685518916'
@@ -233,7 +228,6 @@ export const rowMatrial = [
         "discount": 75,
         "features": ["BEAST™ Mode", "ENx™ Technology", "IPX4 Resistance"],
         "playback": 40,
-        "limitedEdition": "🎉 New Launch",
         "images":
             [
                 'https://www.boat-lifestyle.com/cdn/shop/files/Artboard1_0684daf7-e7d9-4224-9724-07271a45c73a_600x.png?v=1698315950'
@@ -244,8 +238,8 @@ export const rowMatrial = [
     {
         "rating": 4.7,
         "title": "Airdopes 161 Hulk Edition",
-        "Sale price":"₹999",
-        "Regular price":"₹2,490",
+        "salePrice":999,
+        "regularPrice":2490,
         "ID": 18,
         "discount": 60,
         "features": ["ASAP™ Charge", "Type-C Interface", "40 Hours Playback"],
@@ -260,7 +254,8 @@ export const rowMatrial = [
     {
         "rating": 4.7,
         "title": "Airdopes 100",
-        "name": "Sale price₹1,499 Regular price₹3,490",
+        "salePrice":1499,
+        "regularPrice":3490,
         "ID": 19,
         "discount": 57,
         "features": ["Clear Calling", "ASAP™ Charge", "Noise Cancellation"],
@@ -275,12 +270,12 @@ export const rowMatrial = [
     {
         "rating": 4.8,
         "title": "Airdopes 161 ANC",
-        "name": "Sale price₹1,699 Regular price₹5,999",
+        "salePrice":1699,
+        "regularPrice":5999,
         "ID": 20,
         "discount": 72,
         "features": ["50 Hours Playback", "ENx™ Technology", "ASAP Fast Charge"],
         "playback": 50,
-        "limitedEdition": "🎉 New Launch",
         "images":
             [
                 'https://www.boat-lifestyle.com/cdn/shop/files/161anc_B_600x.png?v=1693545730'
@@ -291,12 +286,12 @@ export const rowMatrial = [
     {
         "rating": 4.8,
         "title": "Airdopes 161 Thor Edition",
-        "name": "Sale price₹999 Regular price₹2,490",
+        "salePrice":999,
+        "regularPrice":2490,
         "ID": 21,
         "discount": 60,
         "features": ["ASAP™ Charge", "Type-C Interface", "40 Hours Playback"],
         "playback": 40,
-        "engravingAvailable": "✍️ Engraving Available",
         "images":
             [
                 'https://www.boat-lifestyle.com/cdn/shop/files/Artboard1_c495926e-76e1-487c-a24c-351f484efd76_600x.png?v=1695621155'
@@ -307,13 +302,12 @@ export const rowMatrial = [
     {
         "rating": 5.0,
         "title": "Airdopes 138",
-        "name": "Sale price₹1,399 Regular price₹2,990",
+        "salePrice":1399,
+        "regularPrice":2990,
         "ID": 22,
         "discount": 53,
         "features": ["+5", "13mm Drivers", "boAt Signature Sound"],
-        "addToCart": "Add To Cart",
         "playback": 30,
-        "newLaunch": "🎉 New Launch",
         "images":
             [
                 'https://www.boat-lifestyle.com/cdn/shop/products/c2386af9-4349-432f-8ba5-2b6aa06025c8_76178e65-cec1-436c-87e2-f834b18ffd42_600x.png?v=1658824214'
@@ -324,12 +318,11 @@ export const rowMatrial = [
     {
         "rating": 4.4,
         "title": "Immortal 100",
-        "name": "Sale price₹999 Regular price₹3,299",
+        "salePrice":999,
+        "regularPrice":3299,
         "ID": 23,
         "discount": 70,
         "features": ["ENx™ Technology", "BEAST™ Mode", "IWP Technology"],
-        "gamingEarbuds": "Gaming Earbuds",
-        "coupon": "₹500 OFF ON BIG500",
         "playback": 70,
         "images":
             [
@@ -341,11 +334,11 @@ export const rowMatrial = [
     {
         "rating": 5.0,
         "title": "Immortal 141",
-        "name": "Sale price₹1,599 Regular price₹3,499",
+        "salePrice":1599,
+        "regularPrice":3499,
         "ID": 24,
         "discount": 54,
         "features": ["Up to 40 Hours Playback", "BEAST™ Mode", "IWP Technology"],
-        "addToCart": "Add To Cart",
         "playback": 40,
         "images":
             [
@@ -358,12 +351,11 @@ export const rowMatrial = [
         "rating": 4.9,
         "title": "Best seller Airdopes 121 PRO",
         "salePrice":1299, 
-        "regular price":2990,
+        "regularPrice":2990,
         "ID": 25,
         "discount": 57,
         "features": ["+2", "ASAP™ Charge", "IWP Technology"],
         "playback": 40,
-        "coupon": "₹200 OFF ON BIG200",
         "images":
             [
                 'https://www.boat-lifestyle.com/cdn/shop/products/grey_916612cd-a8da-408e-8ec6-b177df5fa727_1_800x.png?v=1658150489'
@@ -375,12 +367,11 @@ export const rowMatrial = [
         "rating": 4.8,
         "title": "Immortal 121",
         "salePrice":1499 ,
-        "regular price":3490,
+        "regularPrice":3490,
         "ID": 26,
         "discount": 56,
         "features": ["BEAST™ Mode", "Real RGB LEDs"],
         "playback": 35,
-        "limitedEdition": "🎉 New Launch",
         "images":
             [
                 'https://www.boat-lifestyle.com/cdn/shop/products/IMT121-bl_600x.png?v=1670595117'
@@ -397,7 +388,6 @@ export const rowMatrial = [
         "discount": 60,
         "features": ["ASAP™ Charge", "ENx™ Technology", "BEAST™ Mode"],
         "playback": 17,
-        "engravingAvailable": "✍️ Engraving Available",
         "images":
             [
                 'https://www.boat-lifestyle.com/cdn/shop/files/Black_1_b9eaec9b-7ba7-401b-b592-51e5a7eea9ee_600x.png?v=1694426331'
@@ -427,7 +417,6 @@ export const rowMatrial = [
         "ID": 29,
         "discount": 66,
         "features": ["ENx™ Technology", "BEAST™ Mode", "Blazing RGB Lights"],
-        "limitedEdition": "💝 Limited Edition",
         "playback": 60,
         "images":
             [

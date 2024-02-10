@@ -1,9 +1,31 @@
-import { Suspense, lazy } from "react"
+import { rowMatrial }  from "../Common/rowmaterial";
+
+import { Suspense, lazy, useEffect, useState } from "react"
 import { BannerButton } from "../Components/Banner/BannerButton"
+// import ProductCard from "../Components/productCard/ProductCard";
 const ProductCard = lazy(()=> import("../Components/productCard/ProductCard"))
 
+
 const Homepage = () => {
+    // const [ searchValue , setSearchValue]= useState("");
+    // const [ products, setProducts]= useState(rowMatrial)
+    // const [cardProduct , setCardProducts]= useState([])
+
+    // const fetchAPI =()=>
+    // {
+    //     const filteredProducts = products.filter((item)=>{
+    //         return item.title === searchValue 
+    //     });
+    //     console.log(filteredProducts,"products")
+    //     setCardProducts(filteredProducts)
+    // }
+
+    // useEffect(()=>{
+    //     fetchAPI();
+    // },[searchValue])
+
     return <div>
+        {/* <input type="text" placeholder="Search Product" value={searchValue} onChange={(e)=> setSearchValue(e.target.value)}/> */}
         <div style={{ width: "100%", backgroundImage: "linear-gradient(#edfefe, #eeffff)" }}>
             <div style={{ position: "absolute", paddingLeft: "50px", paddingTop: "30px" }}>
                 <p style={{ fontSize: "84px", fontWeight: "initial" }}>True Wireless</p>
@@ -14,6 +36,7 @@ const Homepage = () => {
         </div>
         {/* <ProductCard start={0} end={4}/> */}
         <Suspense fallback={<div>Loading...</div>}>
+            {/* <ProductCard start={0} end={4} products ={cardProduct}/> */}
             <ProductCard start={0} end={4}/>
         </Suspense>
 
@@ -39,7 +62,7 @@ const Homepage = () => {
 
         <Suspense fallback={<div>Loading...</div>}>
             <ProductCard start={8} end={12}/>
-        </Suspense>
+        </Suspense> 
 
         <div style={{ width: "100%", backgroundImage: "linear-gradient(#ffffff, #dfeeeb)" }}>
             <div style={{ position: "absolute", marginLeft:"60%",paddingTop:"100px"}}>
@@ -72,10 +95,10 @@ const Homepage = () => {
             </div>
             <img src="https://www.boat-lifestyle.com/cdn/shop/files/img_6_desktop_89f81470-5a48-4b29-a73f-e52e4e94a215_2000x.png?v=1686650906" alt="banner" width="50%" style={{ marginRight: "45%" }} />
         </div>
-
+        
         <Suspense fallback={<div>Loading...</div>}>
             <ProductCard start={20} end={24}/>
-        </Suspense>
+        </Suspense> 
 
         <div style={{ width: "100%", backgroundImage: "linear-gradient(#ffffff, #f3e5e5)" }}>
             <div style={{ position: "absolute", paddingLeft: "50px"}}>
@@ -88,7 +111,7 @@ const Homepage = () => {
 
         <Suspense fallback={<div>Loading...</div>}>
             <ProductCard start={24} end={28}/>
-        </Suspense>
+        </Suspense> 
     </div>
 }
 
