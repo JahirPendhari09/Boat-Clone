@@ -41,6 +41,11 @@
     position:absolute;
 }
 
+.mainBanner > div > p {
+    font-size: 84px;
+}
+
+
 .mainBanner:nth-child(1) > div
 {
     padding-left: 50px;
