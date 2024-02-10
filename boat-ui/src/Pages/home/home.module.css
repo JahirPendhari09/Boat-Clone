@@ -1,0 +1,73 @@
+
+.mainBox > div{
+
+}
+.mainBanner {
+    width: 100%;
+    background-image: linear-gradient(#edfefe, #eeffff);
+}
+
+.mainBox > div:nth-child(4)
+{
+    background-image: linear-gradient(#ffffff, #fff1d6);
+}
+
+.mainBox > div:nth-child(7)
+{
+    background-image: linear-gradient(#ffffff, #f2edff);
+}
+
+.mainBox > div:nth-child(10)
+{
+    background-image: linear-gradient(#ffffff, #dfeeeb);
+}
+
+.mainBox > div:nth-child(13)
+{
+    background-image: linear-gradient(#ffffff,#e6ecff);
+}
+
+.mainBox > div:nth-child(16)
+{
+    background-image: linear-gradient(#ffffff, #eddfcb);
+}
+
+.mainBox > div:nth-child(19)
+{
+    background-image: linear-gradient(#ffffff, #f3e5e5);
+}
+
+.mainBanner > div {
+    position:absolute;
+}
+
+.mainBanner:nth-child(1) > div
+{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.mainBanner:nth-child(4) > div ,
+.mainBanner:nth-child(10) > div 
+{
+    margin-left:55%;
+    padding-top:150px;
+}
+
+.mainBanner:nth-child(7) > div ,
+.mainBanner:nth-child(13) > div
+{
+    margin-left:55px;
+    padding-top:50px;
+}
+
+.mainBanner:nth-child(16) > div 
+{
+    margin-left:55%;
+    padding-top:0px
+}
+.mainBanner:nth-child(19) > div 
+{
+    margin-left:55px;
+}
+
