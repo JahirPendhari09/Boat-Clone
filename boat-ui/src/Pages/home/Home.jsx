@@ -1,13 +1,10 @@
-import { rowMatrial }  from "../../Common/rowmaterial";
 
-import { Suspense, lazy, useEffect, useState } from "react"
+import { Suspense, lazy} from "react"
 import { BannerButton } from "../../Components/Banner/BannerButton"
 // import ProductCard from "../Components/productCard/ProductCard";
 
 import styles from "./home.module.css"
 const ProductCard = lazy(()=> import("../../Components/productCard/ProductCard"));
-
-
 
 const Homepage = () => {
     // const [ searchValue , setSearchValue]= useState("");
@@ -26,6 +23,7 @@ const Homepage = () => {
     // useEffect(()=>{
     //     fetchAPI();
     // },[searchValue])
+
 
     return <div className={styles.mainBox}>
         {/* <input type="text" placeholder="Search Product" value={searchValue} onChange={(e)=> setSearchValue(e.target.value)}/> */}
