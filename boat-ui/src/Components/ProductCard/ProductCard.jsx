@@ -5,8 +5,9 @@ import styles from "./ProductCard.module.css";
 
 const SingleProduct = lazy(() => import("../singleProduct/SingleProduct"));
 
-const ProductCard = ({ start, end }) => {
-    const [data, setData] = useState(rowMatrial);
+const ProductCard = ({ end , products }) => {
+    // const [data, setData] = useState(rowMatrial);
+
     
     return (
         <>
@@ -16,7 +17,7 @@ const ProductCard = ({ start, end }) => {
             </div>
             <Suspense fallback={<div>Loading...</div>}>
                 <div className={styles.container}>
-                    {data?.length > 0 && data?.slice(start, end).map((item) => (
+                    {products?.length > 0 && products?.slice(0, end).map((item) => (
                         <SingleProduct key={item.ID} {...item} image={item.images && item.images.length > 0 ? item.images[0] : ''} />
                     ))}
                 </div>

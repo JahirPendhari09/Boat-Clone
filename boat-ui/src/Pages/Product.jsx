@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import ProductCard from "../Components/productCard/ProductCard"
+import { rowMatrial } from "../Common/rowmaterial";
 
 const Product = () => {
     const [totalProducts, setTotalProducts] = useState(12);
@@ -19,7 +20,7 @@ const Product = () => {
         infinitScrolling();
     }, [page])
 
-    return <ProductCard start={0} end={totalProducts} />
+    return <ProductCard start={0} end={totalProducts} products={rowMatrial} />
 }
 
 export { Product }

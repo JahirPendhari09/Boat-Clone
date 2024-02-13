@@ -3,10 +3,11 @@ import { Suspense, lazy} from "react"
 import { BannerButton } from "../../Components/Banner/BannerButton"
 
 import styles from "./home.module.css"
+import { headphones, partySpeakers, rowMatrial, soundBar, speakers, watches } from "../../Common/rowmaterial";
 const ProductCard = lazy(()=> import("../../Components/productCard/ProductCard"));
 
 const Homepage = () => {
-   
+
     return <div className={styles.mainBox}>
         <div className={styles.mainBanner}>
             <div>
@@ -17,7 +18,7 @@ const Homepage = () => {
             <img src="https://www.boat-lifestyle.com/cdn/shop/files/img_1_desktop_4c81b094-8292-4d54-8b20-5eb3b823a4e6_2000x.png?v=1686650857" alt="banner" width="50%" style={{ marginLeft: "50%" }} />
         </div>
         <Suspense fallback={<div>Loading...</div>}>
-            <ProductCard start={0} end={4}/>
+            <ProductCard end={4} products = {rowMatrial}/>
         </Suspense>
 
         <div className={styles.mainBanner} >
@@ -29,7 +30,7 @@ const Homepage = () => {
         </div>
 
         <Suspense fallback={<div>Loading...</div>}>
-            <ProductCard start={4} end={8}/>
+            <ProductCard end={4}  products={watches}/>
         </Suspense>
 
         <div className={styles.mainBanner}>
@@ -41,7 +42,7 @@ const Homepage = () => {
         </div>
 
         <Suspense fallback={<div>Loading...</div>}>
-            <ProductCard start={8} end={12}/>
+            <ProductCard  end={4} products={headphones}/>
         </Suspense> 
 
         <div className={styles.mainBanner}>
@@ -53,7 +54,7 @@ const Homepage = () => {
         </div>
 
         <Suspense fallback={<div>Loading...</div>}>
-            <ProductCard start={12} end={16}/>
+            <ProductCard end={4}  products={headphones} />
         </Suspense>
 
         <div  className={styles.mainBanner}>
@@ -65,7 +66,7 @@ const Homepage = () => {
         </div>
 
         <Suspense fallback={<div>Loading...</div>}>
-            <ProductCard start={16} end={20}/>
+            <ProductCard  end={4} products={speakers}/>
         </Suspense>
 
         <div className={styles.mainBanner}>
@@ -77,7 +78,7 @@ const Homepage = () => {
         </div>
         
         <Suspense fallback={<div>Loading...</div>}>
-            <ProductCard start={20} end={24}/>
+            <ProductCard  end={4}  products={partySpeakers}  />
         </Suspense> 
 
         <div className={styles.mainBanner}>
@@ -89,7 +90,7 @@ const Homepage = () => {
         </div>
 
         <Suspense fallback={<div>Loading...</div>}>
-            <ProductCard start={24} end={28}/>
+            <ProductCard  end={4} products={soundBar}/>
         </Suspense> 
     </div>
 }
