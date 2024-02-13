@@ -1,32 +1,13 @@
 
 import { Suspense, lazy} from "react"
 import { BannerButton } from "../../Components/Banner/BannerButton"
-// import ProductCard from "../Components/productCard/ProductCard";
 
 import styles from "./home.module.css"
 const ProductCard = lazy(()=> import("../../Components/productCard/ProductCard"));
 
 const Homepage = () => {
-    // const [ searchValue , setSearchValue]= useState("");
-    // const [ products, setProducts]= useState(rowMatrial)
-    // const [cardProduct , setCardProducts]= useState([])
-
-    // const fetchAPI =()=>
-    // {
-    //     const filteredProducts = products.filter((item)=>{
-    //         return item.title === searchValue 
-    //     });
-    //     console.log(filteredProducts,"products")
-    //     setCardProducts(filteredProducts)
-    // }
-
-    // useEffect(()=>{
-    //     fetchAPI();
-    // },[searchValue])
-
-
+   
     return <div className={styles.mainBox}>
-        {/* <input type="text" placeholder="Search Product" value={searchValue} onChange={(e)=> setSearchValue(e.target.value)}/> */}
         <div className={styles.mainBanner}>
             <div>
                 <p style={{ fontWeight: "initial" }}>True Wireless</p>
@@ -35,9 +16,7 @@ const Homepage = () => {
             </div>
             <img src="https://www.boat-lifestyle.com/cdn/shop/files/img_1_desktop_4c81b094-8292-4d54-8b20-5eb3b823a4e6_2000x.png?v=1686650857" alt="banner" width="50%" style={{ marginLeft: "50%" }} />
         </div>
-        {/* <ProductCard start={0} end={4}/> */}
         <Suspense fallback={<div>Loading...</div>}>
-            {/* <ProductCard start={0} end={4} products ={cardProduct}/> */}
             <ProductCard start={0} end={4}/>
         </Suspense>
 

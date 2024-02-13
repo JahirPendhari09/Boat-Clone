@@ -7,7 +7,6 @@ const SingleProduct = lazy(() => import("../singleProduct/SingleProduct"));
 
 const ProductCard = ({ start, end }) => {
     const [data, setData] = useState(rowMatrial);
-    // console.log(products,"Products")
     
     return (
         <>
