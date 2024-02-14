@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import { Homepage } from "../Pages/home/Home"
 import { Navbar } from "../Common/Navbar/Navbar"
-import { InputBox } from "../Pages/InputBox"
 import { Product } from "../Pages/Product"
 
 const AllRoutes =()=>{
@@ -9,7 +8,7 @@ const AllRoutes =()=>{
     <Navbar/>
     <Routes>
         <Route path="/" element={<Homepage/>} />
-        <Route path="/products" element={<Product/>} />
+        <Route path="/products/:name" element={<Product/>} />
     </Routes>
     </>
 }

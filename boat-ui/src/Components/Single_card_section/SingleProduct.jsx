@@ -1,12 +1,12 @@
 
 import styles from "./SingleProduct.module.css"
 
-const SingleProduct =({ID,title,image,salePrice,regularPrice,discount,playback})=>{
+const SingleProduct =({title,image,salePrice,regularPrice,discount,playback,name})=>{
     
     return (
         <div className={styles.mainDiv}>
-            <img src={image} alt="image" className={styles.productImg} />
-            <button className={styles.btnPlayback}>{playback}</button>
+            <img src={image} alt="image" className={styles.productImg}/>
+            <button className={styles.btnPlayback}>{ name =="airdrops"? `${playback} Hours Playback `: `${playback}`}</button>
             <p> {title}</p>
             <div className={styles.priceCard}>₹{salePrice}
                 <span className={styles.discountEle}>₹{regularPrice}</span>
