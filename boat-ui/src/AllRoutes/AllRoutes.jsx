@@ -5,6 +5,9 @@ import { Product } from "../Pages/Product"
 
 const AllRoutes =()=>{
     return <>
+    <div style={{fontSize:"13px" , backgroundColor:"#eeffff",padding:"10px"}}>
+        Playback: 150 Hrs | Sound: Sublime | Price:<span style={{fontWeight:"bold"}}>₹1199</span>₹1499 | Shop <span style={{fontWeight:"bold"}}>Rockerz Trinity </span>using: <span style={{fontWeight:"bold"}}>TAKE300</span>
+    </div>
     <Navbar/>
     <Routes>
         <Route path="/" element={<Homepage/>} />

@@ -1,8 +1,23 @@
 import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css"; 
+import { useEffect, useState } from "react";
+import { placeholders } from "../rowmaterial";
 
 
 const Navbar = () => {
+
+    const [searchPlaceholder, setSearchPlaceholder]= useState(placeholders);
+    const [indexPlaceholder, setPlaceholderIndex]= useState(0);
+
+    useEffect(()=>{
+
+        const setPlaceholder =setInterval(()=>{
+            setPlaceholderIndex((prev)=> prev == searchPlaceholder.length-1 ? 0 : prev+1)
+        },2000)
+
+        return ()=> clearInterval(setPlaceholder)
+    },[indexPlaceholder]);
+    
     return <div className={styles.mainNavbar}>
         <div className={styles.logo}>
             <Link to="/"><img src="https://www.boat-lifestyle.com/cdn/shop/files/boAt_logo_small_3067da8c-a83b-46dd-b28b-6ef1e16ccd17_small.svg?v=1693549434" alt="Boat-logo" /></Link>
@@ -16,7 +31,7 @@ const Navbar = () => {
         </div>
         <div className={styles.search}>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8AvKIi7Hv_oh_hgxKrDqEfjfR5GYjDM_CeQ&usqp=CAU" alt="seach logo" />
-            <input type="text"  placeholder="Search Earphones" />
+            <input type="text"  placeholder= {searchPlaceholder[indexPlaceholder]} />
         </div>
         <div className={styles.userSection}>
             <img src="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small/user-profile-icon-free-vector.jpg" alt="profile-logo" />

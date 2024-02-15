@@ -107,7 +107,7 @@ const Homepage = () => {
 
         <div className={styles.mainBanner}>
             <div>
-                <p style={{ fontWeight:"bolder"}}>Sound Bars</p>
+                <p style={{ fontWeight:"bold"}}>Sound Bars</p>
                 <BannerButton textAlign={false} price={"1599"}/>
             </div>
             <img src="https://www.boat-lifestyle.com/cdn/shop/files/img_7_desktop_acb84546-2e5d-4f69-bd03-3fd2ca9740db_2000x.png?v=1686650930" alt="banner" width="75%" style={{ marginLeft: "20%", marginTop:"200px" }} />

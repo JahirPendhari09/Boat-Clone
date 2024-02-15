@@ -1747,3 +1747,8 @@ export const partySpeakers =[
     }
 ]
   
+export const placeholders =[
+    `Search "Speakers"`,
+    `Search "Smartwatches"`, 
+    `Search "Earphones"`
+]
