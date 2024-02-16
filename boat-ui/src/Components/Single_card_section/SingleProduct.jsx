@@ -9,7 +9,7 @@ const SingleProduct =({title,image,salePrice,regularPrice,discount,playback,name
             <button className={styles.btnPlayback}>{ name =="airdrops"? `${playback} Hours Playback `: `${playback}`}</button>
             <p> {title}</p>
             <div className={styles.priceCard}>₹{salePrice}
-                <span className={styles.discountEle}>₹{regularPrice}</span>
+                <span className={`${styles.discountEle} ${styles.underlineText}`}>₹{regularPrice}</span>
                 <span className={styles.discountEle}>{discount}% OFF</span>
             </div> 
             <button className={styles.btnCart}> Add To Cart </button>

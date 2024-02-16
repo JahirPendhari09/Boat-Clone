@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 const BannerButton = ({textAlign,price}) => {
     return <DIV textAlign={textAlign}>
-        <p className="startElement"><span>Starting from <strong> ₹{price}*</strong></span></p>
-        <p className="shopElement"><button>Shop Proucts ⇨</button></p>
+        <h1 className="startElement"><span>Starting from <strong> ₹{price}*</strong></span></h1>
+        <h1 className="shopElement"><button>Shop Proucts ⇨</button></h1>
     </DIV>
 }
 
@@ -11,6 +11,7 @@ export {BannerButton}
 
 const DIV = styled.div`
 
+    position: relative;
     .startElement {
         font-size: 35px;
         text-align:${({ textAlign }) => ( textAlign ? "right":"left")};

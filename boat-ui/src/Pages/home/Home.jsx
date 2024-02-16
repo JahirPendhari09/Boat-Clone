@@ -28,7 +28,7 @@ const Homepage = () => {
     return <div className={styles.mainBox}>
         <div className={styles.mainBanner}>
             <div>
-                <p style={{ fontWeight: "initial" }}>True Wireless</p>
+                <p>True Wireless</p>
                 <p style={{ textAlign: "left", marginTop: "-100px", fontWeight: "bold" }}>Earbuds</p>
                 <BannerButton textAlign={false} price="999"/>
             </div>
@@ -42,7 +42,7 @@ const Homepage = () => {
 
         <div className={styles.mainBanner} >
             <div>
-                <p style={{ fontWeight: "initial",textAlign:"right"}}>Smart<span style={{ fontSize: "84px", textAlign: "left", marginTop: "-110px", fontWeight: "bold" }}>Watches</span></p>
+                <p style={{textAlign:"right"}}>Smart<span style={{ fontSize: "84px", textAlign: "left", marginTop: "-110px", fontWeight: "bold" }}>Watches</span></p>
                 <BannerButton textAlign={true} price="1699"/>
             </div>
             <img src="https://www.boat-lifestyle.com/cdn/shop/files/img_2_mob_390x.png?v=1686117497" alt="banner" width="50%" style={{ marginRight: "45%" }} />
