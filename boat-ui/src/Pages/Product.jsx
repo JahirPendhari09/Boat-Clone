@@ -32,7 +32,7 @@ const Product = () => {
 
     return <div style={{ marginTop:"50px"}}>
         <Suspense fallback={<div>Loading...</div>} >
-         <ProductCard end={totalProducts} products={product} />
+          <ProductCard end={totalProducts} products={product} />
         </Suspense>
     </div>
 }
