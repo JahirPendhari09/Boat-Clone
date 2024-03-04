@@ -1,4 +1,4 @@
-import { GET_AIRDROPS, GET_HEADPHONES, GET_PARTY_SPEAKERS, GET_PRODUCTS, GET_SOUND_BARS, GET_SPEAKERS, GET_WATCHES, ISERROR, ISLOADING, SET_SPECIFIC_PRODUCT } from "../actionTypes";
+import { GET_AIRDROPS, GET_ALL_PRODUCTS, GET_HEADPHONES, GET_PARTY_SPEAKERS, GET_PRODUCTS, GET_SOUND_BARS, GET_SPEAKERS, GET_WATCHES, ISERROR, ISLOADING, SET_SPECIFIC_PRODUCT } from "../actionTypes";
 
 const initialState = {
     isAuthenticated: false,
@@ -12,7 +12,8 @@ const initialState = {
     partySpeakers:[],
     product:[],
     isLoading:false,
-    isError:false
+    isError:false,
+    allProducts:[]
   };
 
   
@@ -48,6 +49,9 @@ const reducer =(state=initialState, {type, payload})=>{
         }
         case ISERROR : {
             return {...state, isLoading:false, isError :true}
+        }
+        case GET_ALL_PRODUCTS : {
+            return {...state, isLoading:false, allProducts:payload}
         }
         default : {
             return state

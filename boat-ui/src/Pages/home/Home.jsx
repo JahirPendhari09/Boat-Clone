@@ -3,7 +3,7 @@ import { BannerButton } from "../../Components/Banner/BannerButton";
 import styles from "./home.module.css";
 import { getProducts } from "../../Redux/productReducers/action";
 import { useDispatch, useSelector } from "react-redux";
-import { GET_AIRDROPS, GET_HEADPHONES, GET_PARTY_SPEAKERS, GET_SOUND_BARS, GET_SPEAKERS, GET_WATCHES } from "../../Redux/actionTypes";
+import { GET_AIRDROPS, GET_ALL_PRODUCTS, GET_HEADPHONES, GET_PARTY_SPEAKERS, GET_SOUND_BARS, GET_SPEAKERS, GET_WATCHES } from "../../Redux/actionTypes";
 import ViewProduct from "../../Components/ViewProduct";
 
 const ProductCard = lazy(() => import("../../Components/Product_card_section/ProductCard"));
@@ -19,6 +19,7 @@ const Homepage = () => {
         dispatch(getProducts("sound bar", GET_SOUND_BARS));
         dispatch(getProducts("headphones", GET_HEADPHONES));
         dispatch(getProducts("party speakers", GET_PARTY_SPEAKERS));
+        dispatch(getProducts("",GET_ALL_PRODUCTS,1000))
     }
 
     useEffect(() => {

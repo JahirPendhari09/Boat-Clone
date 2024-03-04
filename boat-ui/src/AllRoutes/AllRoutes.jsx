@@ -3,6 +3,7 @@ import { Homepage } from "../Pages/home/Home"
 import { Navbar } from "../Common/Navbar/Navbar"
 import { Product } from "../Pages/Product"
 import styles from "./Allroutes.module.css"
+import SingleCard from "../Pages/product/SingleCard"
 
 
 const AllRoutes =()=>{
@@ -14,6 +15,7 @@ const AllRoutes =()=>{
     <Routes>
         <Route path="/" element={<Homepage/>} />
         <Route path="/products/:name" element={<Product/>} />
+        <Route  path="/products/single/:id" element ={<SingleCard/>}/>
     </Routes>
     </>
 }

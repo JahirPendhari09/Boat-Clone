@@ -1,11 +1,12 @@
 
+import { Link } from "react-router-dom";
 import styles from "./SingleProduct.module.css"
 
-const SingleProduct =({title,image,salePrice,regularPrice,discount,playback,name})=>{
+const SingleProduct =({_id,title,image,salePrice,regularPrice,discount,playback,name})=>{
     
     return (
         <div className={styles.mainDiv}>
-            <img src={image} alt="image" className={styles.productImg}/>
+            <Link to={`/products/single/${_id}`}><img src={image} alt="image" className={styles.productImg}/></Link>
             <button className={styles.btnPlayback}>{ name =="airdrops"? `${playback} Hours Playback `: `${playback}`}</button>
             <p> {title}</p>
             <div className={styles.priceCard}>₹{salePrice}
