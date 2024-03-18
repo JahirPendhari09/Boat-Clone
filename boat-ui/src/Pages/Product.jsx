@@ -30,7 +30,7 @@ const Product = () => {
         infinitScrolling();
     }, [page])
 
-    return <div style={{ marginTop:"50px"}}>
+    return <div className="mt-12">
         <Suspense fallback={<div>Loading...</div>} >
           <ProductCard end={totalProducts} products={product} />
         </Suspense>
