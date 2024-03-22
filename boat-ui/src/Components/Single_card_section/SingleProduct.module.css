@@ -1,38 +1,4 @@
-.mainDiv {
-    width:100%;
-    display:flex;
-    flex-direction:column;
-    text-align:left;
-    border-radius:10px;
-    margin-bottom:30px;
-    border:1px solid rgb(192, 177, 177);
-    overflow: hidden;
-}
 
-.mainDiv > p {
-    margin-left:20px;
-    font-weight:bolder;
-} 
-
-.priceCard {
-    margin-left:20px;
-    font-weight:bolder;
-    margin-top: -10px;
-    font-size: 15px;
-}
-
-.productImg {
-    width:100%;
-    height: 100%;
-}
-
-.btnPlayback {
-    width:70%;
-    padding:5px;
-    margin-top: -15px;
-    border-radius:10px;
-    background-color:#fcc50b;
-}
 
 button {
     cursor: pointer;
