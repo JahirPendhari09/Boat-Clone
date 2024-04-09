@@ -26,7 +26,7 @@ const Homepage = () => {
         fetchData();
     }, []); 
     
-    return <div className={styles.mainBox}>
+    return <div className={styles.mainBox} >
         <div className={styles.mainBanner}>
             <div>
                 <p>True Wireless</p>
@@ -41,7 +41,7 @@ const Homepage = () => {
             <ProductCard end={4} products = {airdrops}/>
         </Suspense>
 
-        <div className={styles.mainBanner} >
+        <div className={styles.mainBanner}  >
             <div>
                 <p className="text-right"> Smart<span className="text-[84px] text-left -mt-[110px] font-bold" >Watches</span></p>
                 <BannerButton textAlign={true} price="1699"/>

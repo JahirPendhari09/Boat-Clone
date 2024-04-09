@@ -3,6 +3,10 @@
     width: 100%;
     background-image: linear-gradient(#edfefe, #eeffff);
 }
+.mainBox {
+    max-width: 1440px;
+    margin: auto;
+}
 
 .mainBox > div:nth-child(4)
 {
