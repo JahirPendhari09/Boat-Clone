@@ -31,7 +31,7 @@ const Navbar = () => {
             <Link className="no-underline hover:font-bold" title="More Info">More</Link>
         </div>
         <div className="w-1/5 h-3/5 m-3.5 flex border-2 border-black mt-4 rounded-xl overflow-hidden">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8AvKIi7Hv_oh_hgxKrDqEfjfR5GYjDM_CeQ&usqp=CAU" alt="seach logo"  className=" h-1/2 mt-1.5 rounded w-1/12 pl-1"/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8AvKIi7Hv_oh_hgxKrDqEfjfR5GYjDM_CeQ&usqp=CAU" alt="seach logo"  className=" h-1/2 mt-1 rounded w-1/12 pl-1"/>
             <input type="text"  placeholder= {searchPlaceholder[indexPlaceholder]}  className=" w-4/5 pl-2 outline-none"/>
         </div>
         <div  className="w-1/12 flex gap-2.5 m-2.5">

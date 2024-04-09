@@ -17,18 +17,18 @@ const SingleCard = () => {
   }, [dispatch, id, allProducts]); 
 
   return (
-      <div className="w-11/12 m-auto mt-4">
+      <div className="w-11/12 m-auto mt-4 ">
           {
               singleData && singleData.images && singleData.images.length > 0 &&
-              <div  className="w-1/2 flex gap-5">
-                  <div  className="w-2/12 flex flex-col gap-2.5"> 
+              <div  className="w-1/2 flex gap-5 h-[500px] overflow-hidden">
+                  <div  className="w-2/12 h-full  hover:overflow-y-scroll scrollbar-hide  flex flex-col gap-2.5 cursor-pointer"> 
                       {
                           singleData.images.map((item, i) => {
                               return <img key={i} src={item} alt='single-image' onMouseEnter={() => setIndex(i)} />
                           })
                       }
                   </div>
-                  <img src={singleData.images[index]} alt='Product-images' className="w-10/12 h-2/5 bg-gray-300 rounded-lg" />
+                  <img src={singleData.images[index]} alt='Product-images' className=" w-9/12 bg-gray-300 rounded-lg border  border-gray-200 cursor-pointer" />
               </div>
           }
       </div>
