@@ -2,6 +2,7 @@
 .mainBanner {
     width: 100%;
     background-image: linear-gradient(#edfefe, #eeffff);
+    position: relative;
 }
 .mainBox {
     max-width: 1440px;

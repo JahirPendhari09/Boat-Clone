@@ -1,9 +1,10 @@
-import { GET_AIRDROPS, GET_ALL_PRODUCTS, GET_HEADPHONES, GET_PARTY_SPEAKERS, GET_PRODUCTS, GET_SOUND_BARS, GET_SPEAKERS, GET_WATCHES, ISERROR, ISLOADING, SET_SPECIFIC_PRODUCT } from "../actionTypes";
+import { GET_AIRDROPS, GET_ALL_PRODUCTS, GET_HEADPHONES, GET_PARTY_SPEAKERS, GET_PRODUCTS, GET_SOUND_BARS, GET_SPEAKERS, GET_WATCHES, ISERROR, ISLOADING, SET_SPECIFIC_PRODUCT, SET_SPECIFIC_PRODUCT_ARRAY } from "../actionTypes";
 
 const initialState = {
     isAuthenticated: false,
     user: null,
-    specificProduct:"",
+    specificProductName:"jahir",
+    specificProductsArray :[],
     airdrops:[],
     watches:[],
     speakers:[],
@@ -24,7 +25,9 @@ const reducer =(state=initialState, {type, payload})=>{
             return {...state , isLoading:true }
         }
         case SET_SPECIFIC_PRODUCT : {
-            return {...state ,isLoading:false ,  specificProduct:payload}
+            return {...state ,isLoading:false ,  specificProductName:payload}
+        } case SET_SPECIFIC_PRODUCT_ARRAY : {
+            return {...state ,isLoading:false ,  specificProductsArray:payload}
         }
         case GET_AIRDROPS : {
             return { ...state , isLoading:false , airdrops:payload}
